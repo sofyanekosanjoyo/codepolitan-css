@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: green;
+    width: 90%;
+    height:500px;
+    margin: 0 auto;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#container div {
+    width: 400px;
+    height: 200px;
+}
