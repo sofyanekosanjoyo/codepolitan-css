@@ -1,0 +1,21 @@
+* {
+    background-color: blueviolet;
+}
+
+h1, h2, h3 {
+    color: yellowgreen;
+    background-color: black;
+    font-size: smaller;
+}
+
+span {
+    color: white;
+}
+
+#daftar2 {
+    color: black;
+}
+
+.mark {
+    background-color: aquamarine;
+}

@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(138, 43, 227);
+    font-size: medium;
+    background-color: #7fffd4;
+}
+
+button {
+    color: brown;
+    background-color: chartreuse;
+}
+
+p {
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
