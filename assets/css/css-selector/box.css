@@ -1,0 +1,46 @@
+.kotak1 {
+    width: 300px;
+    border: 15px solid brown;
+    padding: 50px;
+    margin: 40px;
+}
+
+.kotak2 {
+    border-style: dotted;
+    border-width: 5px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-style: double;
+    border-right-style: groove;
+    border-bottom-style: ridge;
+    border-style: dashed solid double dotted;
+    border-color: aqua;
+}
+
+.kotak3 {
+    border-left-style: double;
+    border-right-style: groove;
+    border-bottom-style: ridge;
+    border-style: dashed solid double dotted;
+    border-color: rgb(255, 0, 208);
+
+    /* padding-top: 30px;
+    padding-right: 20pxs;
+    padding-bottom: 10px;
+    padding-left: 40px; */
+    
+    /* padding: 10px 40px; Vertikal Horizontal */
+
+    /* padding: 10px 100px 40px; */
+
+    padding: 10px 100px 40px 20px;
+}
+
+.kotak4 {
+    border-color: chartreuse;
+    border-style: dashed solid double dotted;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
