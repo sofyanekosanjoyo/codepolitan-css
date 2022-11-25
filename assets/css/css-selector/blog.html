@@ -10,13 +10,41 @@
             font-size: 14px;
             color: brown;
         }
+        .jokes > p :hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
 
         a + button {
             background-color: grey;
         }
+
+        section:hover {
+            cursor: pointer;
+            background-color: cyan;
+        }
+
         input[type = "password"]{
             color: red;
         }
+
+        section:nth-of-type(2n){
+            background-color: burlywood;
+        }
+
+        section ::first-letter{
+            font-size: xx-large
+            ;
+        }
+
+        section p::first-line{
+            color: rgb(0, 4, 255);
+        }
+
+        section h3::before{
+            content : " (tambah*) ";
+        }
+        
     </style>
 </head>
 <body>
@@ -24,6 +52,30 @@
     <input type="text" name="" id="" placeholder="Cari" value="">
     <input type="password" name="" id="" placeholder="Password" value="">
     <button>Cari</button>
+    <hr>
+    <section class="jokes">
+        <h3>Udang kalau dari Cirebon namanya udang rebon Kalau dari Inggris? Udang robin!</h3>
+        <p>Dipublish oleh: <span>Sofyan</span></p>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta sequi asperiores unde facilis, minima sapiente dignissimos, blanditiis nemo nulla impedit voluptates natus non, facere officia deleniti eveniet aut fugiat!</p>
+        </div>
+        <button>Pilih +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>Alat masak apa yang suka kesel? Paan cii...!!!</h3>
+        <p>Dipublish oleh: <span>Sofyan</span></p>
+        <button>Pilih +</button>
+    </section>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta sequi asperiores unde facilis, minima sapiente dignissimos, blanditiis nemo nulla impedit voluptates natus non, facere officia deleniti eveniet aut fugiat!</p>
+    </div>
+    <hr>
+    <section class="jokes">
+        <h3>Gula, gula apa yang bukan gula merah? Gula Aren't</h3>
+        <p>Dipublish oleh: <span>Sofyan</span></p>
+        <button>Pilih +</button>
+    </section>
     <hr>
     <section class="jokes">
         <h3>Udang kalau dari Cirebon namanya udang rebon Kalau dari Inggris? Udang robin!</h3>
